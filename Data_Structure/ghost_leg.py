@@ -12,7 +12,4 @@ def bubbleSort(A):
     return count
 
 data = [int(x) for x in input().split()]
-
-#print(data)
-
 print(bubbleSort(data))
